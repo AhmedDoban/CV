@@ -238,6 +238,8 @@ body {
     background: url("../img/hero-bg.jpg") top right no-repeat;
     background-size: cover;
     position: relative;
+    justify-content: center;
+    justify-items: center;
   }
   @media (min-width: 992px) {
     #hero {
@@ -797,6 +799,15 @@ body {
   .services .iconbox-teal:hover .icon path {
     fill: #11dbcf;
   }
+  .services .iconbox-black i {
+    color: rgb(0, 0, 0);
+  }
+  .services .iconbox-black:hover .icon i {
+    color: rgb(0, 0, 0);
+  }
+  .services .iconbox-black:hover .icon path {
+    fill: #adadad;
+  }
   
   /*--------------------------------------------------------------
   # Contact
@@ -831,10 +842,7 @@ body {
     font-size: 14px;
     color: #728394;
   }
-  .contact .info .email, .contact .phone {
-    margin-top: 40px;
-  }
-  .contact .info .email:hover i, .contact .info .address:hover i, .contact .phone:hover i {
+  .contact .email:hover i, .contact .address:hover i, .contact .phone:hover i {
     background: #0563bb;
     color: #fff;
   }
