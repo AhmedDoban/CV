@@ -1,3 +1,6 @@
-# Screenshot from project
+# CV
 
-![Screenshot_20220607-163631_Samsung Internet](https://user-images.githubusercontent.com/73547094/172408397-21f88dcf-b35f-4dd4-bc95-6a10d56debc4.jpg)
+
+
+https://user-images.githubusercontent.com/73547094/172974352-a8a2840d-2dc1-4214-97ea-b2c2f8c2dbe5.mp4
+
