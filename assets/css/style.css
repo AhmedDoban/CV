@@ -669,6 +669,15 @@ section {
   right: 15px;
 }
 
+.Projects .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Projects .box:hover img {
+  transform: scale(1.5, 1.5);
+  transition: 0.7s ease-in-out;
+}
 /*--------------------------------------------------------------
   # Portfolio Details
   --------------------------------------------------------------*/
@@ -740,7 +749,7 @@ section {
 .Projects .box {
   padding: 0;
   background: #fff;
-  box-shadow: 15px 5px 10px 5px rgba(110, 123, 131, 0.3) ;
+  box-shadow: 15px 5px 10px 5px rgba(110, 123, 131, 0.3);
 }
 .Projects .box img {
   width: 100%;
