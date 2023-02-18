@@ -24,6 +24,21 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #011426;
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 30px #0bb3f550;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
 
 /*--------------------------------------------------------------
   # Back to top button
@@ -397,6 +412,15 @@ section {
 /*--------------------------------------------------------------
   # Facts
   --------------------------------------------------------------*/
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+@media (max-width: 772px) {
+  .facts-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
 .facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
