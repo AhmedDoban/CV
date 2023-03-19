@@ -308,6 +308,18 @@ h6 {
 #hero .social-links {
   margin-top: 30px;
 }
+#hero .social-links a svg {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+#hero .social-links a:hover svg {
+  filter: grayscale(0);
+}
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
@@ -864,20 +876,28 @@ section {
 }
 #footer .social-links {
   margin: 0 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 #footer .social-links a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
-  display: inline-block;
   background: #0563bb;
   color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
   border-radius: 50%;
-  text-align: center;
   width: 36px;
   height: 36px;
   transition: 0.3s;
+}
+#footer .social-links a svg {
+  width: 18px;
+  height: 18px;
+  font-weight: bold;
 }
 #footer .social-links a:hover {
   background: #0678e3;
