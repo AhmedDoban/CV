@@ -783,12 +783,39 @@ section {
   gap: 40px;
 }
 .Projects .box {
+  position: relative;
   padding: 0;
   background: #fff;
   box-shadow: 15px 5px 10px 5px rgba(110, 123, 131, 0.3);
 }
 .Projects .box img {
+  position: relative;
   width: 100%;
+}
+.Projects .container .box .tool-used {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  padding: 8px 7px;
+  width: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0563bb;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+  writing-mode: vertical-lr;
+}
+.Projects .container .box .tool-used::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 100%;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #0563bb #0563bb transparent #0563bb;
 }
 /*--------------------------------------------------------------
   # Contact
