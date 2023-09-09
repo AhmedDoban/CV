@@ -405,6 +405,9 @@ section {
   font-size: 26px;
   color: #728394;
 }
+.about img {
+  border-radius: 10px;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
