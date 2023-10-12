@@ -429,7 +429,62 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.about .content .Devtools {
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.about .content .Devtools p {
+  margin: 0;
+}
+.about .content .Devtools div {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  transition: all 0.7s ease-in-out;
+  background-color: #ddd;
+  overflow: hidden;
+  flex-direction: row-reverse;
+  border-radius: 50px;
+  padding-left: 3px;
+}
+.about .content .Devtools div:hover {
+  width: 200px;
+  border-radius: 0.5em;
+  padding: 10px;
+}
+.about .content .Devtools div img,
+.about .content .Devtools div i {
+  width: 18px;
+  height: 18px;
+  font-size: 20px;
+}
+.about .content .Devtools div p {
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+  transition-delay: 0.3s;
+}
+.about .content .Devtools div:hover p {
+  opacity: 1;
+}
+.about .content .Devtools div.mongo {
+  color: #4db33d;
+}
+.about .content .Devtools div.Express {
+  color: #303030;
+}
+.about .content .Devtools div.React {
+  color: var(--main-color);
+}
+.about .content .Devtools div.Node {
+  color: #3c873a;
+}
 /*--------------------------------------------------------------
   # Facts
   --------------------------------------------------------------*/
@@ -522,6 +577,10 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: var(--main-color);
+}
+.skills .progress img {
+  width: 18px;
+  height: 18px;
 }
 
 /*--------------------------------------------------------------
