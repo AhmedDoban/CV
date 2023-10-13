@@ -434,6 +434,7 @@ section {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 .about .content .Devtools p {
   margin: 0;
@@ -447,7 +448,7 @@ section {
   cursor: pointer;
   width: 30px;
   height: 30px;
-  background-color: #e6e9ec;
+  background-color: #f2f3f5;
   overflow: hidden;
   flex-direction: row-reverse;
   border-radius: 50px;
@@ -461,7 +462,7 @@ section {
   padding-left: 5px;
   width: 120px;
   max-width: fit-content;
-  background-color: #72839497;
+  background-color: var(--main-color);
 }
 .about .content .Devtools div img,
 .about .content .Devtools div i {
@@ -476,21 +477,14 @@ section {
   opacity: 0;
   transition: all 0.7s ease-in-out;
 }
-
-.about .content .Devtools div.mongo {
-  color: #4db33d;
+.about .content .Devtools div:hover i {
+  transition: all 0.7s ease-in-out;
 }
-.about .content .Devtools div.Express {
-  color: #303030;
-}
-.about .content .Devtools div.React {
-  color: var(--main-color);
-}
-.about .content .Devtools div.Node {
-  color: #3c873a;
-}
-.about .content .Devtools div:hover p {
+.about .content .Devtools div:hover p,
+.about .content .Devtools div:hover i {
   opacity: 1;
+  color: var(--white-color);
+  transition: all 0.7s ease-in-out;
 }
 /*--------------------------------------------------------------
   # Facts
