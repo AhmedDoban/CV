@@ -596,9 +596,46 @@ section {
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid var(--main-color);
   position: relative;
+}
+.resume .resume-item::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: calc(100% - 18px);
+  left: 0;
+  bottom: 0;
+  background-color: var(--main-color);
+  transition: all 0.7s ease-in-out;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+  transform: translateX(-50%);
+  transition: all 0.7s ease-in-out;
+  background-color: var(--main-color);
+  border: 2px solid var(--white-color);
+  outline: 2px solid var(--main-color);
+}
+.resume .resume-item.present {
+  border: 0;
+}
+.resume .resume-item.present::before {
+  transform-origin: center center;
+  animation: fade_present .7s ease-in-out infinite alternate-reverse;
+}
+@keyframes fade_present {
+  from {
+    background-color: var(--white-color);
+  }
+  to {
+    background-color: var(--main-color);
+  }
 }
 .resume .resume-item h4 {
   line-height: 18px;
@@ -625,17 +662,6 @@ section {
 }
 .resume .resume-item:last-child {
   padding-bottom: 0;
-}
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: var(--white-color);
-  border: 2px solid var(--main-color);
 }
 
 /*--------------------------------------------------------------
