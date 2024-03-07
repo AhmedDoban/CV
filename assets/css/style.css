@@ -314,16 +314,16 @@ h6 {
 #hero .social-links {
   margin-top: 30px;
 }
-#hero .social-links a svg {
-  width: 24px;
-  height: 24px;
+#hero .social-links a img {
+  width: 20px;
+  height: 20px;
   filter: grayscale(100%);
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
 }
-#hero .social-links a:hover svg {
+#hero .social-links a:hover img {
   filter: grayscale(0);
 }
 #hero .social-links a {
@@ -627,7 +627,7 @@ section {
 }
 .resume .resume-item.present::before {
   transform-origin: center center;
-  animation: fade_present .7s ease-in-out infinite alternate-reverse;
+  animation: fade_present 0.7s ease-in-out infinite alternate-reverse;
 }
 @keyframes fade_present {
   from {
@@ -1031,19 +1031,16 @@ section {
   height: 36px;
   transition: 0.3s;
 }
-#footer .social-links a svg {
+#footer .social-links a img {
+  position: relative;
   width: 18px;
   height: 18px;
   font-weight: bold;
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(336deg)
+    brightness(100%) contrast(1000%);
 }
 #footer .social-links a:hover {
   background: #0678e3;
   color: var(--white-color);
   text-decoration: none;
-}
-#footer .copyright {
-  margin: 0 0 5px 0;
-}
-#footer .credits {
-  font-size: 13px;
 }
