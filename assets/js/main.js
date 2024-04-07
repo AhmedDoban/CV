@@ -107,7 +107,14 @@ if (preloader) {
 // Hero type effect
 const typed = select(".typed");
 if (typed) {
-  const typedStrings = typed.getAttribute("data-typed-items").split(",");
+  const typedStrings = [
+    "MERN stack Developer",
+    "React js Developer",
+    "Node js Developer",
+    "UI/UX Developer",
+    "Front End Developer",
+    "Back End Developer",
+  ];
   new Typed(".typed", {
     strings: typedStrings,
     loop: true,
