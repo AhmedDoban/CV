@@ -110,6 +110,7 @@ if (typed) {
   const typedStrings = [
     "MERN stack Developer",
     "React js Developer",
+    "Next js Developer",
     "Node js Developer",
     "UI/UX Developer",
     "Front End Developer",
