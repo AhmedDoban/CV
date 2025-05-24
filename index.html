@@ -23,6 +23,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
   <!-- main style -->
   <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -311,35 +312,62 @@
         <div class="facts-container">
           <!-------------------- num of projects-------------------->
           <div class="count-box">
-            <i class="bi bi-kanban"></i>
-            <span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1"
+          <i class="fa-solid fa-diagram-project"></i>
+            <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1"
               class="purecounter"></span>
-            <p>num of projects</p>
+            <p>Num of projects</p>
           </div>
           <!--------------------END-------------------->
 
-          <!--------------------finshed Projects-------------------->
+          <!--------------------Production Projects-------------------->
           <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="28" data-purecounter-duration="1"
+           <i class="fa-solid fa-display"></i>
+            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
               class="purecounter"></span>
-            <p>finshed Projects</p>
+            <p>Production Projects</p>
           </div>
           <!--------------------END-------------------->
 
-          <!--------------------pending-------------------->
+          <!--------------------Development Projects-------------------->
+          <div class="count-box">
+            <i class="fa-solid fa-code"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Development Projects</p>
+          </div>
+          <!--------------------END-------------------->
+
+          <!--------------------pending for deployment-------------------->
           <div class="count-box">
             <i class="bi bi-activity"></i>
             <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
               class="purecounter"></span>
-            <p>pending</p>
+            <p>Pending for deployment</p>
+          </div>
+          <!--------------------END-------------------->
+
+          <!--------------------supported projects-------------------->
+          <div class="count-box">
+            <i class="fa-solid fa-info"></i>
+            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>supported projects</p>
+          </div>
+          <!--------------------END-------------------->
+
+          <!--------------------Learning Projects-------------------->
+          <div class="count-box">
+           <i class="fa-solid fa-chalkboard-user"></i>
+            <span data-purecounter-start="0" data-purecounter-end="31" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>self Learning Projectss</p>
           </div>
           <!--------------------END-------------------->
 
           <!--------------------Certificates-------------------->
           <div class="count-box">
             <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
               class="purecounter"></span>
             <p>Certificates</p>
           </div>
@@ -528,18 +556,83 @@
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-web">web</li>
-              <li data-filter=".filter-cpp">c++</li>
-              <li data-filter=".filter-Html-css">Html-css</li>
-              <li data-filter=".filter-php-MySqli">php-MySqli</li>
-              <li data-filter=".filter-platform">platform</li>
+              <li data-filter=".filter-frontend">Front End</li>
+              <li data-filter=".filter-backend">Back End</li>
+              <li data-filter=".filter-fundamentals">Fundamentals</li>
+              <li data-filter=".filter-training">training</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up">
+
+          <!--------------------DEPI Web developent-------------------->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend filter-training">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/DEPI.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>DEPI</h4>
+                <p>Web developent</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web developent.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"><i class="bx bx-expand"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End-->
+
+
+          <!--------------------Web developent-------------------->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend filter-training">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/NewHorizonTrain.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>New Horizon</h4>
+                <p>Web developent</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web developent.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"><i class="bx bx-expand"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End-->
+
+
+          <!--------------------Web developent-------------------->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-training">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/CairoPetrolTrain.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Cairo Petrol</h4>
+                <p>Network Security </p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web developent.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"><i class="bx bx-expand"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End-->
+
+          <!--------------------Web developent-------------------->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend filter-training">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web developent.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>IBM</h4>
+                <p>Web developent</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web developent.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"><i class="bx bx-expand"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End-->
           <!--------------------C++-------------------->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cpp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fundamentals">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/c++.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
@@ -555,7 +648,7 @@
           <!--End-->
           <!--------------------HtML & Css-------------------->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-Html-css ">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend ">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/html,css.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
@@ -573,7 +666,7 @@
           <!--End-->
           <!--------------------PHP & My Sqli-------------------->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-php-MySqli">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/php,mysql.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
@@ -589,7 +682,7 @@
           <!--End-->
           <!--------------------React JS-------------------->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-platform">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/reactjs.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
@@ -603,23 +696,6 @@
             </div>
           </div>
           <!--End-->
-          <!--------------------Web developent-------------------->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Web developent.png" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Web developent</h4>
-                <p>IBM</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Web developent.png" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-expand"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--End-->
-
         </div>
       </div>
     </section>
@@ -630,9 +706,37 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Projects</h2>
-          <p>click on the card to see more details</p>
+          <p>There are many projects that I have worked on at O-Projects, click on the card to see more details</p>
+          <a href="https://o-projects.org" target="_blank">o-projects.org</a>
         </div>
         <div class="row">
+          <!--------------------Eventtec-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/Eventtec.jpg" alt="Eventtec">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>Eventtec</h3>
+            </div>
+          </div>
+          <!--End-->
+           <!--------------------EgyCham Careers-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/MCDC Careers.png" alt="Eventtec">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>MCDC Careers</h3>
+            </div>
+          </div>
+          <!--End-->
+           <!--------------------Frontiers-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/Frontiers.png" alt="Eventtec">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>Frontiers</h3>
+            </div>
+          </div>
+          <!--End-->
           <!--------------------Avanguard-------------------->
           <div class="box" data-aos="zoom-in">
             <img src="assets/img/projects/avanguard.jpg" alt="Avanguard">
@@ -641,7 +745,25 @@
               <h3>Avanguard</h3>
             </div>
           </div>
-            <!--End-->
+          <!--End-->
+          <!--------------------EgyCham Careers-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/EgyCham Careers.png" alt="Eventtec">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>EgyCham Careers</h3>
+            </div>
+          </div>
+          <!--End-->
+          <!--------------------PIPPS landing page-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/Pipps landing.png" alt="Eventtec">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>Pipps landing</h3>
+            </div>
+          </div>
+          <!--End-->
           <!--------------------Pipps-------------------->
           <div class="box" data-aos="zoom-in">
             <img src="assets/img/projects/Pipps.png" alt="Pipps">
@@ -695,28 +817,6 @@
             </div>
           </div>
           <!--End-->
-          <!--------------------Filo-------------------->
-          <div class="box" data-aos="zoom-in">
-            <img src="assets/img/projects/Filo.jpg" alt="Filo">
-            <div class="info">
-              <div class="tool-used">NEXt Js</div>
-              <h3>Filo</h3>
-              <h4>Demo</h4>
-              <a href="https://filo.o-projects.org"><i class="bi bi-broadcast"></i></a>
-            </div>
-          </div>
-          <!--End-->
-          <!--------------------el7addad-------------------->
-          <div class="box" data-aos="zoom-in">
-            <img src="assets/img/projects/el7addad.jpg" alt="el7addad">
-            <div class="info">
-              <div class="tool-used">NEXt Js</div>
-              <h3>El7addad</h3>
-              <h4>Demo</h4>
-              <a href="https://el7addad.o-projects.org"><i class="bi bi-broadcast"></i></a>
-            </div>
-          </div>
-          <!--End-->
           <!--------------------LifeSnacks-------------------->
           <div class="box" data-aos="zoom-in">
             <img src="assets/img/projects/LifeSnacks.jpg" alt="">
@@ -725,8 +825,6 @@
               <h3>Life Snacks</h3>
               <h4>Demo</h4>
               <a href="https://life-snacks.vercel.app/"><i class="bi bi-broadcast"></i></a>
-              <p>Source Code</p>
-              <a href="https://lifesnacks.o-projects.org"><i class="bi bi-github"></i></a>
             </div>
           </div>
           <!--End-->
@@ -738,11 +836,70 @@
               <h3>Instapadel</h3>
               <h4>Demo</h4>
               <a href="https://insta-padel.vercel.app/"><i class="bi bi-broadcast"></i></a>
-              <p>Source Code</p>
-              <a href="https://instapadel.o-projects.org"><i class="bi bi-github"></i></a>
             </div>
           </div>
           <!--End-->
+        </div>
+      </div>
+    </section>
+
+
+      <section id="Projects" class="Projects">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Supported Projects</h2>
+          <p>There are many projects that I have  supported on at O-Projects, click on the card to see more details</p>
+          <a href="https://o-projects.org" target="_blank">o-projects.org</a>
+        </div>
+        <div class="row">
+          <!--------------------Darelber-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/darelber.png" alt="el7addad">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>Darelber</h3>
+            </div>
+          </div>
+          <!--End-->
+          <!--------------------Cornerstone-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/Cornerstone.png" alt="el7addad">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>Cornerstone</h3>
+            </div>
+          </div>
+          <!--End-->
+           <!--------------------Filo-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/Filo.jpg" alt="Filo">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>Filo</h3>
+            </div>
+          </div>
+          <!--End-->
+          <!--------------------el7addad-------------------->
+          <div class="box" data-aos="zoom-in">
+            <img src="assets/img/projects/el7addad.jpg" alt="el7addad">
+            <div class="info">
+              <div class="tool-used">NEXt Js</div>
+              <h3>El7addad</h3>
+            </div>
+          </div>
+          <!--End-->
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="Projects" class="Projects">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Self learn Projects</h2>
+          <p>To see more projects, click on the card to see more details</p>
+        </div>
+        <div class="row">
           <!--------------------CV-------------------->
           <div class="box" data-aos="zoom-in">
             <img src="assets/img/projects/cv.jpg" alt="">
@@ -1136,6 +1293,7 @@
         </div>
       </div>
     </section>
+
 
     <!--"""""""""""""""""""""""""""""""""contact"""""""""""""""""""""""""""""""""""""""""""-->
     <section id="contact" class="contact">
